@@ -1,0 +1,762 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  body {
+    font-family: Poppins;
+  }
+
+  .navbar-expand-lg {
+    justify-content: space-between;
+  }
+
+  .navbar-collapse {
+    flex-grow: unset;
+  }
+
+  .container {
+    max-width: 1200px;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    gap: 60px;
+    align-items: center;
+    }
+
+  .header {
+    margin-top: 40px;
+  }
+
+  .nav-item_end {
+    background-color: #2C3878;
+    padding: 14px 32px;
+  }
+
+  .nav-item_end > a {
+    color: white;
+  }
+
+  .main {
+    margin-top: 100px;
+  }
+
+  .main > h1 {
+    max-width: 681px;
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 45px;
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+
+  h3 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  .h2-block {
+    display: flex;
+    align-items: center;
+  }
+
+  .about {
+    margin-top: 160px;
+  }
+
+  .about > h3 {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  .about-block {
+    display: flex;
+    gap: 94px;
+    align-items: center;
+  }
+
+  .about-block p {
+    font-size: 18px;
+    color: #9C9C9C;
+    margin-bottom: 40px;
+  }
+
+  .about-block a {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #2C3878;
+    padding: 14px 32px;
+    text-decoration: none;
+  }
+
+  .services {
+    margin-top: 160px;
+  }
+
+  .services h3 {
+    margin-top: 20px;
+    margin-bottom: 24px;
+  }
+
+  .services-text {
+    max-width: 471px;
+    font-size: 18px;
+    color: #9C9C9C;
+  }
+
+  .services-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+
+  .services-card p {
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .product {
+    margin-top: 160px;
+  }
+
+  .product-title {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .product-title h3 {
+    max-width: 337px;
+  }
+
+  .product-title p {
+    max-width: 448px;
+    font-size: 18px;
+    color: #9C9C9C;
+  }
+
+  .product-block {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    gap: 80px;
+  }
+
+  .product-block_div {
+    flex-grow: 1;
+  }
+
+  .product-block > p {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .product-block_p {
+    max-width: 446px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+  }
+
+  .product-block_title {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .material {
+    margin-top: 160px;
+  }
+
+  .material-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .material-block h3 {
+    max-width: 334px;
+    margin-bottom: 20px;
+  }
+
+  .material-block p {
+    max-width: 481px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #9C9C9C;
+  }
+
+  .material-block a {
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #333333;
+    color: #333333;
+    padding: 14px 32px;
+    text-decoration: none;
+  }
+
+  .discusss {
+    margin-top: 160px;
+    background-color: #2C3878;
+    color: #fff;
+  }
+
+  .discuss {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 38px;
+    padding-bottom: 38px;
+  }
+
+  .discuss h3 {
+    max-width: 613px;
+  }
+
+  .discuss p {
+    color: #D9D9D9;
+    font-size: 18px;
+    margin-bottom: 40px;
+    max-width: 432px;
+  }
+
+  .discuss a {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: white;
+    padding: 14px 32px;
+    text-decoration: none;
+  }
+
+  footer {
+    align-items: flex-end;
+  }
+
+  footer p {
+    font-size: 36px;
+    font-weight: 600;
+    max-width: 600px;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1200px) {
+    .about-block img {
+        max-width: 500px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        gap: 5px;
+    }
+
+    .about-block img {
+        max-width: 500px;
+    }
+
+    .about-block {
+        flex-direction: column;
+      }
+
+      .material-block {
+        flex-direction: column;
+        gap: 40px;
+      }
+
+      .h2-block img {
+        max-width: 300px;
+      }
+
+  }
+
+  @media (max-width: 767px) and (min-width: 378px) {
+
+    .container {
+        max-width: 320px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        gap: 5px;
+    }
+
+    .main > h1 {
+        max-width: 681px;
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 45px;
+      }
+    
+      h2 {
+        font-size: 13px;
+        font-weight: 500;
+        margin-bottom: 0;
+        margin-right: 20px;
+      }
+    
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .h2-block img {
+        max-width: 200px;
+      }
+
+      .about-block {
+        flex-direction: column;
+      }
+
+      .about-block img {
+        max-width: 320px;
+    }
+    
+      .product-title p {
+        font-size: 14px;
+      }
+    
+      .product-block {
+        gap: 20px;
+      }
+    
+      .product-block_div {
+        flex-grow: 0;
+      }
+    
+      .product-block > p {
+        font-size: 16px;
+      }
+    
+      .product-block_p {
+        font-size: 14px;
+      }
+    
+      .product-block_title {
+        font-size: 18px;
+      }
+
+      .material-block {
+        flex-direction: column;
+        gap: 40px;
+      }
+
+      .material-block p {
+        font-size: 14px;
+      }
+
+      .discuss {
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .discuss p {
+        font-size: 14px;
+      }
+
+      footer p {
+        font-size: 18px;
+        margin-bottom: 40px;
+      }
+
+      .ms-3 {
+        margin-left: 0 !important;
+        margin-right: 1em;
+    }
+
+    .slider {
+        margin-top: 80px;
+    }
+  }
+
+  .h1-block {
+    margin-top: 100px;
+    margin-bottom: 57px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .h1-block  h1 {
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 36px;
+  }
+
+  .h1-block p {
+    font-size: 18px;
+    text-align: center;
+    max-width: 518px;
+    margin: 0 auto;
+  }
+
+  .about-achievement {
+    margin-top: 160px;
+  }
+
+  .h2-block {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    margin-bottom: 53px;
+  }
+
+  .about-achievement_block {
+    display: flex;
+    justify-content: space-between;
+    gap: 59px;
+  }
+
+  .about-achievement_card {
+    background-color: #2C3878;
+    color: #fff;
+    padding: 40px 58px 44px 40px;
+  }
+
+  .about_achievement_numb {
+    font-size: 52px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .about_achievement_text {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .about-services {
+    margin-top: 160px;
+  }
+
+  .about-services > p {
+    color: #9C9C9C;
+    max-width: 471px;
+    font-size: 16px;
+  }
+
+  .about-services > h3 {
+    margin-bottom: 25px;
+  }
+
+  .about-services_block {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+  }
+
+  .about-services_card {
+    box-shadow: 0px 0px 5px #D9D9D9;
+    padding: 20px 27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .about-services_card p {
+    text-align: center;
+    font-size: 18px;
+    color: #9C9C9C;
+  }
+
+  .about-services_card h4 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .about-achievement_block {
+        flex-direction: column;
+    }
+
+    .about-achievement_card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about-services_block {
+        flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 767px) and (min-width: 378px) {
+    .about-achievement_block img {
+        max-width: 320px;
+    }
+
+    .about-achievement_block {
+        flex-direction: column;
+    }
+
+    .about-achievement_card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 20px 10px;
+    }
+
+    .about-services_block {
+        flex-wrap: wrap;
+    }
+
+    .about_achievement_numb {
+        font-size: 20px;
+    }
+
+    .about_achievement_text {
+        font-size: 10px;
+        text-align: center;
+      }
+
+    .about-main {
+        margin-top: 90px;
+    }
+
+    .about-achievement {
+        margin-top: 90px;
+    }
+
+    .about-services {
+        margin-top: 90px;
+    }
+
+    .discusss {
+        margin-top: 90px;
+    }
+
+    .about-services_card h4 {
+        text-align: center;
+      }
+  }
+
+  .services-achievement-block {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .services-achievement {
+    margin-top: 160px;
+  }
+
+  .services-achievement-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+  }
+
+  .services-achievement-card p {
+    font-size: 18px;
+    color: #9C9C9C;
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .services-achievement-card {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+  }
+
+  @media (max-width: 767px) and (min-width: 378px) {
+    .services-achievement-card {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .services-achievement-card img {
+        max-width: 320px;
+      }
+  }
+
+  .teams-designers {
+    margin-top: 160px;
+  }
+
+  .teams-designers h3 {
+    margin-bottom: 25px;
+  }
+
+  .teams-designers > p {
+    max-width: 471px;
+    color: #9C9C9C;
+    font-size: 18px;
+    margin-bottom: 80px;
+  }
+
+  .teams-blok {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .card {
+    width: 282px;
+    height: 400px;
+  }
+
+  .card1 {
+    background-image: url(images/designer1.png);
+  }
+
+  .card2 {
+    background-image: url(images/designer2.png);
+  }
+
+  .card3 {
+    background-image: url(images/designer3.png);
+  }
+
+  .card4 {
+    background-image: url(images/designer4.png);
+  }
+
+  .card5 {
+    background-image: url(images/designer5.png);
+  }
+
+  .card6 {
+    background-image: url(images/designer6.png);
+  }
+
+  .card7 {
+    background-image: url(images/designer7.png);
+  }
+
+  .card8 {
+    background-image: url(images/designer8.png);
+  }
+
+  .teams-blok_name {
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 292px;
+    width: 258px;
+  }
+
+  .teams-blok_name h4 {
+    margin-left: 16px;
+    margin-top: 18px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .teams-blok_name p {
+    margin-left: 16px;
+    font-size: 16px;
+    color: #9C9C9C;
+    margin-bottom: 18px;
+  }
+
+  .contact-main {
+    margin-top: 160px;
+  }
+
+  label {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  input::placeholder {
+    font-size: 16px;
+  }
+
+  input {
+    height: 62px;
+    border-radius: 0px;
+    border: #9C9C9C solid 1px;
+  }
+
+  .btn {
+    background-color: #2C3878;
+    padding: 14px 32px;
+    color: #fff;
+    border-radius: 0;
+    margin-top: 40px;
+  }
+
+  .portfolio-main {
+    margin-top: 160px;
+  }
+
+  .portfolio {
+    margin-top: 160px;
+  }
+
+  .portfolio-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .reverse {
+        flex-direction: column;
+    }
+
+    .about-block {
+        gap: 10px;
+    }
+  }
+
+  @media (max-width: 767px) and (min-width: 378px) {
+    .reverse {
+        flex-direction: column;
+    }
+
+    .about-block {
+        gap: 10px;
+    }
+  }
+  
+.slider {
+    margin-top: 160px;
+}
+
+.accordion-block {
+    margin-top: 160px;
+}
+
+
+
+
